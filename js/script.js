@@ -7,7 +7,9 @@ new Vue({
     },
     methods: {
         saluta: function() {
-            alert('Benvenuto: ' + this.messaggioUtente)
+            alert('Benvenuto: ' + this.messaggioUtente);
+            
+            this.message = prompt('inserisci una pass');
         }
     }
 })
